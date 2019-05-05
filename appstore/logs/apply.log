@@ -1,0 +1,912 @@
+2017-07-13 17:24:14 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:24:14 getHomePage Method status: <Response [200]>
+2017-07-13 17:24:14 getAccountPage status: <Response [200]>
+2017-07-13 17:24:14 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:24:14 getsessionId: 401B555994016CCA48457D192A8FB1DF
+2017-07-13 17:24:14 ============================apply for njococ8451@126.com==========================
+2017-07-13 17:24:15 captcha method request status_code: 201
+2017-07-13 17:24:17 Post Appleid success,status_code: 200
+2017-07-13 17:24:20 Post password success,status_code: 204
+2017-07-13 17:24:22 Post password success,status_code: 204
+2017-07-13 17:24:24 Post password success,status_code: 204
+2017-07-13 17:24:29 The image captcha code: QPP9
+2017-07-13 17:24:29 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:24:32 requestEmailCaptcha resp result is: {
+  "verificationId" : "000339-00-b25090c98d7c6c73a9ee0d04802a90f1e6485b9590297bf99fad21b326aebbe0LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:25:03 mail resolution result vaule: 961219
+2017-07-13 17:25:03 put email captcha success,status_code: 204
+2017-07-13 17:25:03 put email captcha message: 
+2017-07-13 17:25:06 post register(mail captcha) success,status_code: 201
+2017-07-13 17:25:06 post register(mail captcha) success,resp: {
+  "name" : "njococ8451@126.com",
+  "namePrefix" : "njococ8451",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "njococ8451@126.com",
+      "addressPrefix" : "njococ8451",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 143,
+          "millisOfDay" : 33906143,
+          "secondOfMinute" : 6,
+          "secondOfDay" : 33906,
+          "minuteOfHour" : 25,
+          "minuteOfDay" : 565,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499937906143,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "njococ8451@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "wu",
+      "lastName" : "shi"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "nj******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:25:06",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:25:18 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:25:18 getHomePage Method status: <Response [200]>
+2017-07-13 17:25:20 getAccountPage status: <Response [200]>
+2017-07-13 17:25:20 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:25:20 getsessionId: 278F480E0E0DBA8F23F9850A12EAE9FE
+2017-07-13 17:25:20 ============================apply for kkwuql17592687@126.com==========================
+2017-07-13 17:25:20 captcha method request status_code: 201
+2017-07-13 17:25:23 Post Appleid success,status_code: 200
+2017-07-13 17:25:26 Post password success,status_code: 204
+2017-07-13 17:25:28 Post password success,status_code: 204
+2017-07-13 17:25:30 Post password success,status_code: 204
+2017-07-13 17:25:37 The image captcha code: bbx8n
+2017-07-13 17:25:38 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:25:40 requestEmailCaptcha resp result is: {
+  "verificationId" : "000426-00-e977071989d14cbd9bfa686ac3ef96809543524231344b88d8fe0aa63e0458c8LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:26:11 mail resolution result vaule: 161816
+2017-07-13 17:26:11 put email captcha success,status_code: 204
+2017-07-13 17:26:11 put email captcha message: 
+2017-07-13 17:26:14 post register(mail captcha) success,status_code: 201
+2017-07-13 17:26:14 post register(mail captcha) success,resp: {
+  "name" : "kkwuql17592687@126.com",
+  "namePrefix" : "kkwuql17592687",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "kkwuql17592687@126.com",
+      "addressPrefix" : "kkwuql17592687",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 743,
+          "millisOfDay" : 33974743,
+          "secondOfMinute" : 14,
+          "secondOfDay" : 33974,
+          "minuteOfHour" : 26,
+          "minuteOfDay" : 566,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499937974743,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "kkwuql17592687@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "wang",
+      "lastName" : "ling"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "kk******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:26:14",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:26:27 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:26:27 getHomePage Method status: <Response [200]>
+2017-07-13 17:26:29 getAccountPage status: <Response [200]>
+2017-07-13 17:26:29 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:26:29 getsessionId: 49148E78DD2A5CBCD89E88104F0B222E
+2017-07-13 17:26:29 ============================apply for gtjd31331115@126.com==========================
+2017-07-13 17:26:30 captcha method request status_code: 201
+2017-07-13 17:26:32 Post Appleid success,status_code: 200
+2017-07-13 17:26:35 Post password success,status_code: 204
+2017-07-13 17:26:37 Post password success,status_code: 204
+2017-07-13 17:26:39 Post password success,status_code: 204
+2017-07-13 17:26:45 The image captcha code: y3crg
+2017-07-13 17:26:45 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:26:48 requestEmailCaptcha resp result is: {
+  "verificationId" : "000818-00-1d7707aa8cab72956d7421bb41a745b275cd128fe10d1de1edbca848a0ee1b98LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:27:19 mail resolution result vaule: 377830
+2017-07-13 17:27:19 put email captcha success,status_code: 204
+2017-07-13 17:27:19 put email captcha message: 
+2017-07-13 17:27:22 post register(mail captcha) success,status_code: 201
+2017-07-13 17:27:22 post register(mail captcha) success,resp: {
+  "name" : "gtjd31331115@126.com",
+  "namePrefix" : "gtjd31331115",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "gtjd31331115@126.com",
+      "addressPrefix" : "gtjd31331115",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 315,
+          "millisOfDay" : 34042315,
+          "secondOfMinute" : 22,
+          "secondOfDay" : 34042,
+          "minuteOfHour" : 27,
+          "minuteOfDay" : 567,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499938042315,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "gtjd31331115@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "cheng",
+      "lastName" : "hua"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "gt******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:27:22",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:27:35 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:27:35 getHomePage Method status: <Response [200]>
+2017-07-13 17:27:36 getAccountPage status: <Response [200]>
+2017-07-13 17:27:36 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:27:36 getsessionId: 47F134DB04D4F1D7A1A0C302BC9C1AC7
+2017-07-13 17:27:36 ============================apply for powzblmw4575362@126.com==========================
+2017-07-13 17:27:36 captcha method request status_code: 201
+2017-07-13 17:27:41 Post Appleid success,status_code: 200
+2017-07-13 17:27:43 Post password success,status_code: 204
+2017-07-13 17:27:45 Post password success,status_code: 204
+2017-07-13 17:27:47 Post password success,status_code: 204
+2017-07-13 17:27:55 The image captcha code: 84xy7
+2017-07-13 17:27:55 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:27:58 requestEmailCaptcha resp result is: {
+  "verificationId" : "001247-00-cc948880c93bd327409a3155dbd9057d842ecc5482add7a0a21b441f8f18c32cLTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:28:29 mail resolution result vaule: 793453
+2017-07-13 17:28:29 put email captcha success,status_code: 204
+2017-07-13 17:28:29 put email captcha message: 
+2017-07-13 17:28:32 post register(mail captcha) success,status_code: 201
+2017-07-13 17:28:32 post register(mail captcha) success,resp: {
+  "name" : "powzblmw4575362@126.com",
+  "namePrefix" : "powzblmw4575362",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "powzblmw4575362@126.com",
+      "addressPrefix" : "powzblmw4575362",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 317,
+          "millisOfDay" : 34112317,
+          "secondOfMinute" : 32,
+          "secondOfDay" : 34112,
+          "minuteOfHour" : 28,
+          "minuteOfDay" : 568,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499938112317,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "powzblmw4575362@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "feng",
+      "lastName" : "hua"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "po******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:28:32",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:28:45 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:28:45 getHomePage Method status: <Response [200]>
+2017-07-13 17:28:46 getAccountPage status: <Response [200]>
+2017-07-13 17:28:46 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:28:46 getsessionId: 8FE8CB865E281CB1376A8EF9FC7D7BCE
+2017-07-13 17:28:46 ============================apply for nzxknn8982947@126.com==========================
+2017-07-13 17:28:46 captcha method request status_code: 201
+2017-07-13 17:28:49 Post Appleid success,status_code: 200
+2017-07-13 17:28:51 Post password success,status_code: 204
+2017-07-13 17:28:53 Post password success,status_code: 204
+2017-07-13 17:28:55 Post password success,status_code: 204
+2017-07-13 17:29:00 The image captcha code: gpz1
+2017-07-13 17:29:00 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:29:03 requestEmailCaptcha resp result is: {
+  "verificationId" : "000118-00-e808ac6021fe453784e32ad167892993f0e7e3b8041ac53a12ff997f85405d19LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:29:34 mail resolution result vaule: 683337
+2017-07-13 17:29:34 put email captcha success,status_code: 204
+2017-07-13 17:29:34 put email captcha message: 
+2017-07-13 17:29:37 post register(mail captcha) success,status_code: 201
+2017-07-13 17:29:37 post register(mail captcha) success,resp: {
+  "name" : "nzxknn8982947@126.com",
+  "namePrefix" : "nzxknn8982947",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "nzxknn8982947@126.com",
+      "addressPrefix" : "nzxknn8982947",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 301,
+          "millisOfDay" : 34177301,
+          "secondOfMinute" : 37,
+          "secondOfDay" : 34177,
+          "minuteOfHour" : 29,
+          "minuteOfDay" : 569,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499938177301,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "nzxknn8982947@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "wang",
+      "lastName" : "shi"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "nz******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:29:37",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:29:49 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:29:49 getHomePage Method status: <Response [200]>
+2017-07-13 17:29:51 getAccountPage status: <Response [200]>
+2017-07-13 17:29:51 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:29:51 getsessionId: E3A0FC22BA2900D4BA0D45D3B30C292E
+2017-07-13 17:29:51 ============================apply for sdmy2428234@126.com==========================
+2017-07-13 17:29:52 captcha method request status_code: 201
+2017-07-13 17:29:55 Post Appleid success,status_code: 200
+2017-07-13 17:29:57 Post password success,status_code: 204
+2017-07-13 17:29:59 Post password success,status_code: 204
+2017-07-13 17:30:01 Post password success,status_code: 204
+2017-07-13 17:30:11 The image captcha code: depq
+2017-07-13 17:30:11 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:30:14 requestEmailCaptcha resp result is: {
+  "verificationId" : "000998-00-953d59aeda1a78ff877c5da9d090ea6d81a848564985085451dfb89fc704ca51LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
+2017-07-13 17:30:45 mail resolution result vaule: 674743
+2017-07-13 17:30:45 put email captcha success,status_code: 204
+2017-07-13 17:30:45 put email captcha message: 
+2017-07-13 17:30:48 post register(mail captcha) success,status_code: 201
+2017-07-13 17:30:48 post register(mail captcha) success,resp: {
+  "name" : "sdmy2428234@126.com",
+  "namePrefix" : "sdmy2428234",
+  "nameSuffix" : "@126.com",
+  "person" : {
+    "shippingAddresses" : [ ],
+    "primaryAddress" : {
+      "defaultAddress" : false,
+      "stateProvinceInvalid" : true,
+      "primary" : true,
+      "countryName" : "China",
+      "countryCode" : "CHN",
+      "shipping" : false,
+      "usa" : false,
+      "canada" : false,
+      "fullAddress" : "",
+      "japanese" : false,
+      "korean" : false,
+      "formattedAddress" : [ "China" ],
+      "type" : "primary",
+      "preferred" : false,
+      "id" : "1"
+    },
+    "primaryEmailAddress" : {
+      "id" : 1,
+      "type" : "official",
+      "address" : "sdmy2428234@126.com",
+      "addressPrefix" : "sdmy2428234",
+      "addressSuffix" : "@126.com",
+      "vettingStatus" : {
+        "type" : "vetted",
+        "updatedDate" : {
+          "monthOfYear" : 7,
+          "yearOfEra" : 2017,
+          "yearOfCentury" : 17,
+          "centuryOfEra" : 20,
+          "millisOfSecond" : 81,
+          "millisOfDay" : 34248081,
+          "secondOfMinute" : 48,
+          "secondOfDay" : 34248,
+          "minuteOfHour" : 30,
+          "minuteOfDay" : 570,
+          "hourOfDay" : 9,
+          "weekyear" : 2017,
+          "weekOfWeekyear" : 28,
+          "era" : 1,
+          "dayOfYear" : 194,
+          "year" : 2017,
+          "dayOfMonth" : 13,
+          "dayOfWeek" : 4,
+          "zone" : {
+            "fixed" : true,
+            "id" : "UTC"
+          },
+          "chronology" : {
+            "zone" : {
+              "fixed" : true,
+              "id" : "UTC"
+            }
+          },
+          "millis" : 1499938248081,
+          "afterNow" : false,
+          "beforeNow" : true,
+          "equalNow" : false
+        },
+        "vetted" : true,
+        "notVetted" : false,
+        "pending" : false
+      },
+      "vetted" : true,
+      "isEmailSameAsAccountName" : false
+    },
+    "phoneNumbers" : [ ],
+    "accountName" : "sdmy2428234@126.com",
+    "managedAdministrator" : false,
+    "hasPaymentMethod" : false,
+    "maxAllowedAlternateEmails" : 0,
+    "isDateOfBirthEditable" : false,
+    "isHSA2Eligible" : false,
+    "maxBirthday" : "2017-12-31",
+    "isUnderAge" : false,
+    "allowAdditionalAlternateEmail" : false,
+    "maxAllowedSharedNumbers" : 0,
+    "hasFamily" : false,
+    "isFamilyOrganizer" : false,
+    "minBirthday" : "1867-07-13",
+    "name" : {
+      "middleNameRequired" : false,
+      "firstName" : "wei",
+      "lastName" : "shi"
+    }
+  },
+  "security" : {
+    "supportsDeviceSignout" : false,
+    "maxAllowedTrustedPhones" : 0,
+    "questionsPresent" : true,
+    "hasSecondaryPassword" : false,
+    "isHSAEnrollmentEmbargoed" : false,
+    "isContactEmailVerified" : false,
+    "allowHSAOptOut" : false
+  },
+  "preferences" : {
+    "preferredLanguage" : "en_US",
+    "marketingPreferences" : {
+      "appleUpdates" : false,
+      "iTunesUpdates" : false,
+      "appleNews" : false
+    },
+    "privacyPreferences" : {
+      "allowDeviceDiagnosticsAndUsage" : false,
+      "allowShareThirdPartyDevelopers" : false,
+      "allowICloudDataAnalytics" : false
+    }
+  },
+  "lastPasswordChangedDate" : "2017-07-13",
+  "obfuscatedName" : "sd******************************",
+  "lastPasswordChangedDatetime" : "2017-07-13 09:30:48",
+  "paymentMethodStatus" : "NOT_LOADED",
+  "ownsFamilyPaymentMethod" : false,
+  "hasFamilyPaymentMethod" : false,
+  "hasPrimaryPaymentMethod" : false,
+  "paidaccount" : false,
+  "internalAccount" : false,
+  "eligibleForLegacyRk" : false,
+  "legacyRkExists" : false,
+  "modernRkExists" : false
+}
+2017-07-13 17:31:02 getHomePage Method header: {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
+2017-07-13 17:31:02 getHomePage Method status: <Response [200]>
+2017-07-13 17:31:05 getAccountPage status: <Response [200]>
+2017-07-13 17:31:05 getapiKey: cbf64fd6843ee630b463f358ea0b707b
+2017-07-13 17:31:05 getsessionId: 21C6C6AAB5BA74252A01F70255F399FC
+2017-07-13 17:31:05 ============================apply for eebol369979@126.com==========================
+2017-07-13 17:31:05 captcha method request status_code: 201
+2017-07-13 17:31:08 Post Appleid success,status_code: 200
+2017-07-13 17:31:11 Post password success,status_code: 204
+2017-07-13 17:31:13 Post password success,status_code: 204
+2017-07-13 17:31:15 Post password success,status_code: 204
+2017-07-13 17:31:20 The image captcha code: fekha
+2017-07-13 17:31:20 Post register message(image captcha) success,status_code: 204
+2017-07-13 17:31:23 requestEmailCaptcha resp result is: {
+  "verificationId" : "000917-00-341e2543dc589aee8c8e3d0ce96da120ec6f8068198af9cd2f6c0f402c2f5a98LTOW",
+  "canGenerateNew" : true,
+  "length" : 6
+}
